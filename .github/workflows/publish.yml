@@ -9,8 +9,8 @@ jobs:
       contents: read
       packages: write
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
       - run: npm install
@@ -22,3 +22,4 @@ jobs:
         working-directory: ./build
         # env:
         #   NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: ls -R
