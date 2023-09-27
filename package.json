@@ -1,6 +1,6 @@
 {
-  "name": "@joshjohanning-org/npm-package-example",
-  "version": "0.0.3",
+  "name": "@joshjohanning-org/npm-package-example-with-container",
+  "version": "0.0.4",
   "description": "Example project for TypeScript packages",
   "main": "index.js",
   "scripts": {
@@ -37,10 +37,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joshjohanning-org/npm-package-example.git"
+    "url": "git+https://github.com/joshjohanning-org/npm-package-example-with-container.git"
   },
   "bugs": {
-    "url": "https://github.com/joshjohanning-org/npm-package-example/issues"
+    "url": "https://github.com/joshjohanning-org/npm-package-example-with-container/issues"
   },
-  "homepage": "https://github.com/joshjohanning-org/npm-package-example"
+  "homepage": "https://github.com/joshjohanning-org/npm-package-example-with-container"
 }
